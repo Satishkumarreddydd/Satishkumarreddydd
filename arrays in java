@@ -1,0 +1,31 @@
+arrays in java
+You are given a number k and a array numbers that contains integers. You need to return array of numbers that are less than k.
+public static int[] lessThan(int[] numbers,int k){
+     
+    int count=0;
+    for(int i=0;i<numbers.length;i++)
+    {
+        
+        if(numbers[i]<k){ suppose {54,43,2,1,5}
+            count++;# c=3
+             
+            
+         
+            
+            
+             
+        }
+        
+    }
+    int index=0;
+    int [] result =new int[count];
+    for(int i=0;i<numbers.length;i++)
+    {
+        if(numbers[i]<k)
+        {
+            result[index++]=numbers[i]; index =0,1,2  
+                                        numbers[i]=2,1,5
+
+        }
+    }
+    return result;
